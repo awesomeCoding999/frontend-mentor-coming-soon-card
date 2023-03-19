@@ -135,6 +135,12 @@ form {
     text-align: left;
   }
 
+  .coming-soon-txt,
+  .we-are-txt {
+    font-size: 4rem;
+    line-height: 71px;
+  }
+
   .coming-soon-txt {
     letter-spacing: 17.3206px;
   }
