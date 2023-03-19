@@ -95,4 +95,39 @@ form {
 }
 
 @media (min-width: 64em) {
+  body {
+    background: url("./images/bg-pattern-desktop.svg");
+    margin-left: 165px;
+  }
+
+  .hero-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+  }
+
+  .text-and-form-container {
+    text-align: left;
+  }
+
+  .coming-soon-txt {
+    letter-spacing: 17.3206px;
+  }
+
+  .headline-text-container {
+    margin-top: 136px;
+  }
+
+  .description {
+    font-size: 16px;
+    line-height: 28px;
+    width: 444px;
+    margin-top: 32px;
+    margin-bottom: 40px;
+  }
+
+  form {
+    width: 445px;
+  }
 }
