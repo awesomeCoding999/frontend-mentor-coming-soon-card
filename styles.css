@@ -9,6 +9,7 @@
 :root {
   --desaturated-red: #ce9898;
   --soft-red: #f96262;
+  --orange-red: #f96464;
   --dark-greyish-red: #413a3a;
 }
 
@@ -44,7 +45,7 @@ body {
   font-size: 40px;
   line-height: 42px;
   letter-spacing: 10.8254px;
-  color: #423a3a;
+  color: var(--dark-greyish-red);
 }
 
 .description {
@@ -82,6 +83,10 @@ form {
 }
 
 .error-icon {
+  width: 24px;
+  height: 24px;
+  margin-top: 17px;
+  margin-right: 16px;
   visibility: hidden;
 }
 
@@ -92,6 +97,12 @@ form {
   border-radius: 28px;
   padding: 15px 28px;
   cursor: pointer;
+}
+
+.email-submit-msg {
+  font-size: 13px;
+  line-height: 28px;
+  color: var(--orange-red);
 }
 
 /*small tablets*/
@@ -137,5 +148,10 @@ form {
 
   form {
     width: 445px;
+  }
+
+  .email-submit-msg {
+    margin-top: 4px;
+    margin-left: 30px;
   }
 }
