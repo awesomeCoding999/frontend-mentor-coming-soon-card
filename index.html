@@ -30,23 +30,28 @@
         <img src="./images/hero-mobile.jpg" alt="woman smirking at camera" />
       </picture>
       <div class="text-and-form-container">
-        <h1 class="headline">
-          We're <span class="coming-soon-txt">coming soon</span>
-        </h1>
+        <div class="headline-text-container">
+          <h2 class="we-are-txt">We're</h2>
+          <h2 class="coming-soon-txt">coming</h2>
+          <h2 class="coming-soon-txt">soon</h2>
+        </div>
+
         <p class="description">
           Hello fellow shoppers! We're currently building our new fashion store.
           Add your email below to stay up-to-date with announcements and our
           launch deals.
         </p>
-        <form action="">
+        <form>
           <input
+            autocomplete="off"
             placeholder="Email Address"
             type="email"
             name="email"
+            class="email-input"
             id="email"
           />
           <img class="error-icon" src="./images/icon-error.svg" alt="" />
-          <button class="submit-btn" type="submit">
+          <button class="submit-btn" type="button">
             <img class="arrow-icon" src="./images/icon-arrow.svg" alt="" />
           </button>
         </form>
