@@ -94,7 +94,15 @@ form {
   cursor: pointer;
 }
 
-@media (min-width: 64em) {
+/*small tablets*/
+@media (min-width: 31.25em) {
+  .hero-img {
+    display: block;
+    margin: auto;
+  }
+}
+
+@media (min-width: 90em) {
   body {
     background: url("./images/bg-pattern-desktop.svg");
     margin-left: 165px;
