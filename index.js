@@ -5,10 +5,11 @@ const submitBtn = document.getElementById("submit-btn");
 const emailSubmitMsg = document.getElementById("email-submit-msg");
 const emailValidationRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
-console.log(formElement);
-
 submitBtn.addEventListener("click", () => {
   let userInput = emailInput.value;
+  //reset previous styles
+  errorIcon.style.visibility = "hidden";
+  formElement[0].style.border = "1px solid  #ce9898";
 
   if (!userInput.length) {
     emailSubmitMsg.textContent = "Please submit an email address";

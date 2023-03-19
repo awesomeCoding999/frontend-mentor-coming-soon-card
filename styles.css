@@ -20,20 +20,20 @@ body {
 }
 
 .logo {
-  margin: 32px;
+  margin: 2rem;
   width: 100px;
   height: 20.89px;
 }
 
 .text-and-form-container {
-  margin: 64px 32px 92px;
+  margin: 4rem 2rem 5.75rem;
   text-align: center;
 }
 
 .we-are-txt {
   text-transform: uppercase;
   font-weight: 300;
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 42px;
   letter-spacing: 10.8254px;
   color: var(--desaturated-red);
@@ -42,7 +42,7 @@ body {
 .coming-soon-txt {
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 42px;
   letter-spacing: 10.8254px;
   color: var(--dark-greyish-red);
@@ -51,7 +51,7 @@ body {
 .description {
   margin: 1rem 0 2rem;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 22px;
   color: var(--desaturated-red);
 }
@@ -66,8 +66,8 @@ form {
 
 .email-input {
   flex-grow: 2;
-  margin-left: 24px;
-  padding: 11px 24px 9px 0;
+  margin-left: 1.5rem;
+  padding: 0.688rem 1.5rem 0.563rem 0;
   border: none;
   background-color: transparent;
 }
@@ -75,7 +75,7 @@ form {
 .email-input::placeholder {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 28px;
   color: var(--desaturated-red);
   mix-blend-mode: normal;
@@ -85,8 +85,8 @@ form {
 .error-icon {
   width: 24px;
   height: 24px;
-  margin-top: 17px;
-  margin-right: 16px;
+  margin-top: 1.063rem;
+  margin-right: 1rem;
   visibility: hidden;
 }
 
@@ -95,12 +95,12 @@ form {
   background: linear-gradient(135deg, #f8bfbf 0%, #ee8b8b 100%);
   box-shadow: 0px 15px 20px rgba(198, 110, 110, 0.247569);
   border-radius: 28px;
-  padding: 15px 28px;
+  padding: 0.938rem 1.75rem;
   cursor: pointer;
 }
 
 .email-submit-msg {
-  font-size: 13px;
+  font-size: 0.813rem;
   line-height: 28px;
   color: var(--orange-red);
 }
@@ -116,7 +116,12 @@ form {
 @media (min-width: 90em) {
   body {
     background: url("./images/bg-pattern-desktop.svg");
-    margin-left: 165px;
+    margin-left: 10.313rem;
+  }
+
+  .logo {
+    width: 158px;
+    height: 33px;
   }
 
   .hero-img {
@@ -135,15 +140,15 @@ form {
   }
 
   .headline-text-container {
-    margin-top: 136px;
+    margin-top: 8.5rem;
   }
 
   .description {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
     width: 444px;
-    margin-top: 32px;
-    margin-bottom: 40px;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
   }
 
   form {
@@ -151,7 +156,7 @@ form {
   }
 
   .email-submit-msg {
-    margin-top: 4px;
-    margin-left: 30px;
+    margin-top: 0.25rem;
+    margin-left: 1.875rem;
   }
 }
